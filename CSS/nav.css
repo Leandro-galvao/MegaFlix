@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&family=Roboto:ital,wght@0,300;1,400&family=Source+Code+Pro&display=swap');
+
+header{
+    background-image: url(../imagens/filmes.png);
+    display: grid;
+    grid-template-columns: repeat(6, 1fn);
+    grid-template-rows: repeat(6, 1fr);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column: 1/13;
+}
+
+li{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo__nav{
+    width: 92px;
+    height: 72px ;
+}
+
+.logo_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home__nav{
+    color: #fd0178;
+    font-family: Delicious Handrawn;
+    font-size: 20px;
+}
+
+.logo__dados{
+    color: #fd0178;
+}
+
+hr{
+    display: flex;
+    border-color: #fd0178;
+    margin-top: 4px;
+    
+}
+
+h6{
+    font-family: Dancing Script;
+    font-size: 20px;
+}

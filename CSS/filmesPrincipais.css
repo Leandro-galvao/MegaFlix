@@ -1,0 +1,52 @@
+.filmesPrincipais{
+    background: #6F0AA6;
+    background-image: linear-gradient(to bottom, #140226, #4c088b, #500597);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+img, .atropos{
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.filmesPrincipais__titulo{
+    font-size: 36px;
+    color: #9b9696;
+    text-align: center;
+    font-family: Alkatra;
+}
+
+.atropos{
+    margin-top: 60px;
+}
+
+.fileiraFilmes1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fileiraFilmes2{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 720px){
+    .fileiraFilmes1, .fileiraFilmes2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1300px){
+    .fileiraFilmes1, .fileiraFilmes2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

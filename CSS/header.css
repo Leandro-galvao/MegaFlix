@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&family=Roboto:ital,wght@0,300;1,400&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+h1{
+    grid-column: 2/8;
+    grid-row-start: 4;
+    color: white;
+    font-family: Source Code Pro;
+    font-size: 52px;
+}
+
+h2{
+    grid-row-start: 5;
+    grid-column: 2/8;
+    color: white;
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 60px;
+}
+
+.titulo__header{
+    margin-left: 60px;
+}
+
+.btn{
+    grid-row: 6;
+    grid-column-start: 2;
+    font-family: Source Code Pro;
+    display: flex;
+    margin-left: 60px;
+}
+
+.btn__start{
+    font-family: Source Code Pro;
+    background-color: #fd0178;
+    width: 250px;
+    height: 75px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__plan{
+    font-family: Source Code Pro;
+    background-color: #252c57;
+    width: 250px;
+    height: 75px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px){
+    .menu__links{
+        display: none;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    .btn__start, .btn__plan{
+        width: 100px;
+        height: 50px;
+    }
+}
